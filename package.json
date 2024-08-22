@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   
-    "homepage": "https://DhanushKeloth.github.io/ci-cd-ghpages",
+    "homepage": "https://DhanushKeloth.github.io/hello-world",
     
   
   
@@ -14,7 +14,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
      "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
